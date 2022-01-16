@@ -14,53 +14,55 @@ export default class Projects extends Component {
   render() {
     return (
       <section>
-        <div className="slider">
-          <ul className="slides">
-            <li>
-              <img
-                className="materialboxed"
-                src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512"
-                alt="teste"
-              />
-              <div className="caption center-align">
-                <h3 className="bold">Projeto 1</h3>
-                <h5 className="medium">Here's our small slogan.</h5>
-              </div>
-            </li>
-            <li>
-              <img
-                className="materialboxed"
-                src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512"
-                alt="teste"
-              />
-              <div className="caption center-align">
-                <h3 className="bold">Projeto 2</h3>
-                <h5 className="medium">Here's our small slogan.</h5>
-              </div>
-            </li>
-            <li>
-              <img
-                className="materialboxed"
-                src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512"
-                alt="teste"
-              />
-              <div className="caption center-align">
-                <h3 className="bold">Projeto 3</h3>
-                <h5 className="medium">Here's our small slogan.</h5>
-              </div>
-            </li>
-            <li>
-              <img
-                className="materialboxed"
-                src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512"
-                alt="teste"
-              />
-              <div className="caption center-align">
-                <h3 className="bold">Projeto 4</h3>
-                <h5 className="medium">Here's our small slogan.</h5>
-              </div>
-            </li>
-          </ul>
+        <div className="slider-container">
+          <div className="slider">
+            <ul className="slides">
+              <li>
+                <img
+                  className="materialboxed"
+                  src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512"
+                  alt="teste"
+                />
+                <div className="caption center-align">
+                  <h3 className="bold">Projeto 1</h3>
+                  <h5 className="medium">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img
+                  className="materialboxed"
+                  src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512"
+                  alt="teste"
+                />
+                <div className="caption center-align">
+                  <h3 className="bold">Projeto 2</h3>
+                  <h5 className="medium">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img
+                  className="materialboxed"
+                  src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512"
+                  alt="teste"
+                />
+                <div className="caption center-align">
+                  <h3 className="bold">Projeto 3</h3>
+                  <h5 className="medium">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img
+                  className="materialboxed"
+                  src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512"
+                  alt="teste"
+                />
+                <div className="caption center-align">
+                  <h3 className="bold">Projeto 4</h3>
+                  <h5 className="medium">Here's our small slogan.</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="button-container">
           <a className="waves-effect waves-light btn button-git" href="https://github.com/riegerjulio" target="_blank" rel="noreferrer">Veja meu repositório Completo de Projetos</a>
