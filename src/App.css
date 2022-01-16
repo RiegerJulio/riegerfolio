@@ -29,6 +29,21 @@ h2 {
   opacity: 0.8;
 }
 
+.sidenav-item {
+  display: flex;
+  height: 15vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidenav-item li{
+  width: 100vw;
+}
+
+.sidenav-item li a{
+  font-size: 1.3rem;
+}
+
 .sidenav-trigger {
   position: absolute;
   left: 80vw;
@@ -96,6 +111,11 @@ article p {
 
 .btn-submit {
   background-color: #1a237e;
+  margin-left: 3vw;
+}
+
+.btn-submit:focus {
+  background-color: #ffc107;
   margin-left: 3vw;
 }
 

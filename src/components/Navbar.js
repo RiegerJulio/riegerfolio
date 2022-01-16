@@ -25,10 +25,18 @@ export default class Navbar extends Component {
       </nav>   
 
       <ul id="slide-out" className="sidenav amber">
-        <li><a href="#!" className="sidenav-close indigo-text text-darken-4">Home</a></li>
-        <li><a href="#!" className="sidenav-close indigo-text text-darken-4">Portfólio</a></li>
-        <li><a href="#!" className="sidenav-close indigo-text text-darken-4">Sobre Mim</a></li>
-        <li><a href="#!" className="sidenav-close indigo-text text-darken-4">Contato</a></li>
+        <div className="sidenav-item">
+          <li><a href="#!" className="sidenav-close indigo-text text-darken-4">Home</a></li>
+        </div>
+        <div className="sidenav-item">
+          <li><a href="#!" className="sidenav-close indigo-text text-darken-4">Portfólio</a></li>
+        </div>
+        <div className="sidenav-item">
+          <li><a href="#!" className="sidenav-close indigo-text text-darken-4">Sobre Mim</a></li>
+        </div>
+        <div className="sidenav-item">
+          <li><a href="#!" className="sidenav-close indigo-text text-darken-4">Contato</a></li>
+        </div>
       </ul>
       <a href="#" data-target="slide-out" className="right sidenav-trigger hide-on-large-only btn-floating pulse indigo darken-4"><i className="medium material-icons">menu</i></a>    
     </>

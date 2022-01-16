@@ -63,7 +63,7 @@ export default class Projects extends Component {
           </ul>
         </div>
         <div className="button-container">
-          <a className="waves-effect waves-light btn button-git" href="https://github.com/riegerjulio">Veja meu repositório Completo de Projetos</a>
+          <a className="waves-effect waves-light btn button-git" href="https://github.com/riegerjulio" target="_blank" rel="noreferrer">Veja meu repositório Completo de Projetos</a>
         </div>
         <h1>Kit de Habilidades</h1>
         <ul>
