@@ -6,6 +6,8 @@ export default class Projects extends Component {
     document.addEventListener('DOMContentLoaded', function () {
       var elems = document.querySelectorAll('.slider');
       var instances = M.Slider.init(elems, {});
+      var elems2 = document.querySelectorAll('.materialboxed');
+      var instances2 = M.Materialbox.init(elems2, {});
     });
   }
 
@@ -16,6 +18,7 @@ export default class Projects extends Component {
           <ul className="slides">
             <li>
               <img
+                className="materialboxed"
                 src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512"
                 alt="teste"
               />
@@ -26,6 +29,7 @@ export default class Projects extends Component {
             </li>
             <li>
               <img
+                className="materialboxed"
                 src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512"
                 alt="teste"
               />
@@ -36,6 +40,7 @@ export default class Projects extends Component {
             </li>
             <li>
               <img
+                className="materialboxed"
                 src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512"
                 alt="teste"
               />
@@ -46,6 +51,7 @@ export default class Projects extends Component {
             </li>
             <li>
               <img
+                className="materialboxed"
                 src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512"
                 alt="teste"
               />
