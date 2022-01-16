@@ -90,3 +90,8 @@ article p {
   padding-right: 5vw;
   padding-top: 7vh;  
 }
+
+.btn-submit {
+  background-color: #1a237e;
+  margin-left: 3vw;
+}
