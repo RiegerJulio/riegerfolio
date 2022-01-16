@@ -1,6 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import M from 'materialize-css';
-
 
 export default class Navbar extends Component {
 
@@ -15,8 +14,8 @@ export default class Navbar extends Component {
     return (
       <>
     <nav>
-      <div className="nav-wrapper">
-        <a to="#" className="brand-logo">RiegerFolio</a>
+      <div className="nav-wrapper amber">
+        <a to="#" className="brand-logo left indigo-text text-darken-4">RiegerFolio</a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li><a to="#">Portfólio</a></li>
           <li><a to="#">Sobre Mim</a></li>
@@ -31,8 +30,10 @@ export default class Navbar extends Component {
       <li><a href="#!" className="sidenav-close">Sobre Mim</a></li>
       <li><a href="#!" className="sidenav-close">Contato</a></li>
     </ul>
-    <a href="#" data-target="slide-out" className="right sidenav-trigger hide-on-large-only"><i className="material-icons">menu</i></a>    
+    <a href="#" data-target="slide-out" className="right sidenav-trigger hide-on-large-only btn-floating pulse indigo darken-4"><i className="medium material-icons">menu</i></a>    
     </>
     )
   }
 }
+
+// falta acertar o comportamento do botão sidenav e acertar o padding na versão web
