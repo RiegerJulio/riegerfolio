@@ -5,7 +5,7 @@ export default class About extends Component {
     return (
       <div>
         <h3>"Eu prefiro ser temido ou amado? Fácil, ambos. Quero que as pessoas tenham medo do quanto elas me amam  ." - Michael Scott.</h3>
-        <img src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512" alt="img-gero"/>
+        {/* <img src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512" alt="img-gero"/> */}
         <p>Julio Rieger</p>
         <a href="#">teste</a>
         <a href="#">teste</a>

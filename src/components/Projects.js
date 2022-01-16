@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import M from 'materialize-css';
 
 export default class Projects extends Component {
   componentDidMount() {
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       var elems = document.querySelectorAll('.slider');
       var instances = M.Slider.init(elems, {});
     });
@@ -11,40 +11,54 @@ export default class Projects extends Component {
 
   render() {
     return (
-      <div>
-         <div className="slider">
-    <ul className="slides">
-      <li>
-        <img src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512" alt="teste" /> 
-        <div className="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 className="light grey-text text-lighten-3">Here's our small slogan.</h5>
+      <section>
+        <div className="slider">
+          <ul className="slides">
+            <li>
+              <img
+                src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512"
+                alt="teste"
+              />
+              <div className="caption center-align">
+                <h3 className="bold">Projeto 1</h3>
+                <h5 className="medium">Here's our small slogan.</h5>
+              </div>
+            </li>
+            <li>
+              <img
+                src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512"
+                alt="teste"
+              />
+              <div className="caption center-align">
+                <h3 className="bold">Projeto 2</h3>
+                <h5 className="medium">Here's our small slogan.</h5>
+              </div>
+            </li>
+            <li>
+              <img
+                src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512"
+                alt="teste"
+              />
+              <div className="caption center-align">
+                <h3 className="bold">Projeto 3</h3>
+                <h5 className="medium">Here's our small slogan.</h5>
+              </div>
+            </li>
+            <li>
+              <img
+                src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512"
+                alt="teste"
+              />
+              <div className="caption center-align">
+                <h3 className="bold">Projeto 4</h3>
+                <h5 className="medium">Here's our small slogan.</h5>
+              </div>
+            </li>
+          </ul>
         </div>
-      </li>
-      <li>
-        <img src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512" alt="teste" /> 
-        <div className="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 className="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        <div className="button-container">
+          <a className="waves-effect waves-light btn button-git" href="https://github.com/riegerjulio">Veja meu repositório Completo de Projetos</a>
         </div>
-      </li>
-      <li>
-        <img src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512" alt="teste" /> 
-        <div className="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 className="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512" alt="teste" /> 
-        <div className="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 className="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-    </ul>
-  </div>
-        <button><a href="https://github.com/riegerjulio">Veja meu repositório Completo de Projetos</a></button>
         <h1>Kit de Habilidades</h1>
         <ul>
           <li>- HTML 5</li>
@@ -58,7 +72,7 @@ export default class Projects extends Component {
           <li>- Jest e RTL(TDD)</li>
           <li>- Versionamento com Git</li>
         </ul>
-      </div>
-    )
+      </section>
+    );
   }
 }

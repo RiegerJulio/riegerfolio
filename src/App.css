@@ -1,5 +1,18 @@
-.brand-logo{
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #1a237e;
   font-weight: 600;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.brand-logo{
+  font-weight: 500;
 }
 
 .sidenav-trigger {
@@ -8,16 +21,34 @@
   top: 1vh;
 }
 
-h1 {
-  color: #1a237e;
-  font-weight: 600;
-  font-size: 2.5rem;
-}
-
 .intro-paragraph {
   color: #ffc107;
   font-size: 1.3rem;
   font-weight: 700;
   padding-left: 1.3rem;
   padding-right: 1.3rem;
+  text-align: center;
+  padding-bottom: 7vh;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #ffc107;
+}
+
+.button-container {
+  justify-content: center;
+  display: flex;
+  padding-top: 7vh;
+  padding-bottom: 1vh;
+}
+
+.button-git {
+  background-color: #1a237e;
+  color: white;
+  font-size: 0.8rem;
+}
+
+ul {
+  text-align: center;
+  font-weight: 500;
 }
