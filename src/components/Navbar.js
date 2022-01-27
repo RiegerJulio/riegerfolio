@@ -17,8 +17,8 @@ export default class Navbar extends Component {
         <div className="nav-wrapper amber">
           <a to="#" className="brand-logo left indigo-text text-darken-4">RiegerFolio</a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
-            <li><a to="#">Portfólio</a></li>
-            <li><a to="#">Sobre Mim</a></li>
+            <li><a to="#portfolio">Portfólio</a></li>
+            <li><a to="#sobremim">Sobre Mim</a></li>
             <li><a to="#">Contato</a></li>
           </ul>
         </div>
