@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
 import M from 'materialize-css';
 
-import projeto1 from '../images/tryunfo_demo.png';
-
 export default class Projects extends Component {
   componentDidMount() {
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
       var elems = document.querySelectorAll('.slider');
       var instances = M.Slider.init(elems, {});
-      // var elems2 = document.querySelectorAll('.materialboxed');
-      // var instances2 = M.Materialbox.init(elems2, {});
     });
   }
 
@@ -20,35 +16,58 @@ export default class Projects extends Component {
           <div class="slider">
             <ul class="slides">
               <li className="slider-img-1">
-                {/* <img src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512" alt="projeto1" /> */}
                 <div class="caption center-align">
                   <h3>Projeto Trivia</h3>
                   <h5 class="light grey-text text-lighten-3">Jogo de Perguntas e Respostas.</h5>
                   <div className="slider-button-container">
-                    <button className="button-slider">Preview</button>
-                    <button className="button-slider">Repositório</button>
+                    <a href="https://riegertrivia.netlify.app/" target="_blank" rel="noreferrer">
+                      <button className="button-slider">Preview</button>
+                    </a>
+                    <a href="https://github.com/RiegerJulio/TriviaGame" target="_blank" rel="noreferrer">
+                      <button className="button-slider">Repositório</button>
+                    </a>
                   </div>
                 </div>
               </li>
               <li className="slider-img-2">
-                {/* <img src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512" alt="projeto1"/> */}
                 <div class="caption center-align">
                   <h3>Rieger Wallet</h3>
                   <h5 class="light grey-text text-lighten-3">Carteira Virtual</h5>
                   <div className="slider-button-container">
-                    <button className="button-slider">Preview</button>
-                    <button className="button-slider">Repositório</button>
+                    <a href="https://riegerwallet.netlify.app" target="_blank" rel="noreferrer">
+                      <button className="button-slider">Preview</button>
+                    </a>
+                    <a href="https://github.com/RiegerJulio/CryptoWallet" target="_blank" rel="noreferrer">
+                      <button className="button-slider">Repositório</button>
+                    </a>
                   </div>
                 </div>
               </li>
               <li className="slider-img-3">
-                {/* <img src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512" alt="projeto1"/> */}
                 <div class="caption center-align">
                   <h3>RiegerFy</h3>
                   <h5 class="light grey-text text-lighten-3">Um clone do Itunes</h5>
                   <div className="slider-button-container">
-                    <button className="button-slider">Preview</button>
-                    <button className="button-slider">Repositório</button>
+                   <a href="https://clonetunes.netlify.app" target="_blank" rel="noreferrer">
+                      <button className="button-slider">Preview</button>
+                    </a>
+                    <a href="https://github.com/RiegerJulio/CloneTunes" target="_blank" rel="noreferrer">
+                      <button className="button-slider">Repositório</button>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li className="slider-img-4">
+                <div class="caption center-align">
+                  <h3>LuneDev</h3>
+                  <h5 class="light grey-text text-lighten-3">Um site para uma Startup</h5>
+                  <div className="slider-button-container">
+                    <a href="https://lunedev.netlify.app" target="_blank" rel="noreferrer">
+                      <button className="button-slider">Preview</button>
+                    </a>
+                    <a href="https://github.com/RiegerJulio/LuneDevSite" target="_blank" rel="noreferrer">
+                      <button className="button-slider">Repositório</button>
+                    </a>
                   </div>
                 </div>
               </li>
@@ -60,7 +79,7 @@ export default class Projects extends Component {
             <button className="button-git">Veja meu repositório Completo de Projetos</button>
           </a>
         </div>
-        <h1>Kit de Habilidades</h1>
+        <h1 id="portfolio">Kit de Habilidades</h1>
         <div className="skills-container">
           <div>
             <h2>Front-End</h2>

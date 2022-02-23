@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f8f8f8;
 }
@@ -30,6 +34,25 @@ h2 {
   margin-left: 3vw;
 }
 
+nav {
+  /* display: none; */
+  top: 0;
+  overflow: hidden;
+  position: fixed;
+  z-index: 4;
+}
+
+.sidenav-trigger {
+  position: fixed;
+  left: 80vw;
+  top: 1vh;
+  z-index: 5;
+}
+
+main {
+  margin-top: 10vh;
+}
+
 .sidenav {
   opacity: 0.8;
 }
@@ -47,12 +70,6 @@ h2 {
 
 .sidenav-item li a{
   font-size: 1.3rem;
-}
-
-.sidenav-trigger {
-  position: absolute;
-  left: 80vw;
-  top: 1vh;
 }
 
 .intro-paragraph {
@@ -117,6 +134,11 @@ h2 {
 .slider-img-3 {
   background-position: center;
   background-image: url('./images/project-1-sm.png');
+}
+
+.slider-img-4 {
+  background-position: center;
+  background-image: url('./images/project-4-sm.png');
 }
 
 li h3 {
@@ -316,6 +338,11 @@ footer p {
   .slider-img-3 {
     background-image: url('./images/project-1-md.png');
   }
+
+  .slider-img-4 {
+    background-position: center;
+    background-image: url('./images/project-4-md.png');
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -351,6 +378,11 @@ footer p {
   
   .slider-img-3 {
     background-image: url('./images/project-1-lg.png');
+  }
+
+  .slider-img-4 {
+    background-position: center;
+    background-image: url('./images/project-4-lg.png');
   }
 
   .button-git {

@@ -19,31 +19,31 @@ export default class Form extends Component {
     };
 
     return (
-      <section>
+      <section id="contact">
         <h2>"Chega de me stalkear, Vamos nos conectar." - Julio Rieger</h2>
-    <div className="row">
-      <form onSubmit={sendEmail}>
-        <div className="row">
-          <div className="input-field col s12">
-            <input id="first_name" type="text" className="validate" name="name"/>
-            <label for="first_name"><span className="form-field">Nome</span></label>
+      <div className="row">
+        <form onSubmit={sendEmail}>
+          <div className="row">
+            <div className="input-field col s12">
+              <input id="first_name" type="text" className="validate" name="name"/>
+              <label for="first_name"><span className="form-field">Nome</span></label>
+            </div>
+            <div className="input-field col s12">
+              <input id="email" type="email" class="validate" name="email"/>
+              <label for="email"><span className="form-field">Email</span></label>
+            </div>
+            <div class="input-field col s12">
+              <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
+              <label for="textarea1"><span className="form-field">Mensagem</span></label>
+            </div>
+            <button class="btn-submit" type="submit" name="action">
+              <span>Enviar</span>
+              <i class="material-icons right">send</i>
+            </button>
           </div>
-          <div className="input-field col s12">
-            <input id="email" type="email" class="validate" name="email"/>
-            <label for="email"><span className="form-field">Email</span></label>
-          </div>
-          <div class="input-field col s12">
-            <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
-            <label for="textarea1"><span className="form-field">Mensagem</span></label>
-          </div>
-          <button class="btn-submit" type="submit" name="action">
-            <span>Enviar</span>
-            <i class="material-icons right">send</i>
-          </button>
-        </div>
 
-      </form>
-    </div>
+        </form>
+      </div>
       </section>
     )
   }

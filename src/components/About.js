@@ -6,7 +6,7 @@ import {FiMail} from "react-icons/fi"
 export default class About extends Component {
   render() {
     return (
-      <article>
+      <article id="about-me">
          <h2>"Eu prefiro ser temido ou amado? Fácil, ambos. Quero que as pessoas tenham medo do quanto elas me amam  ." - Michael Scott.</h2>
         <div className="social-container">
           <div className="name-and-social">      
