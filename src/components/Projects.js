@@ -19,44 +19,33 @@ export default class Projects extends Component {
         <div className="slider-container">
           <div class="slider">
             <ul class="slides">
-              <li>
-                <img src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512" alt="projeto1" />
+              <li className="slider-img-1">
+                {/* <img src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512" alt="projeto1" /> */}
                 <div class="caption center-align">
-                  <h3>This is our big Tagline!</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                  <h3>Projeto Trivia</h3>
+                  <h5 class="light grey-text text-lighten-3">Jogo de Perguntas e Respostas.</h5>
                   <div className="slider-button-container">
                     <button className="button-slider">Preview</button>
                     <button className="button-slider">Repositório</button>
                   </div>
                 </div>
               </li>
-              <li>
-                <img src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512" alt="projeto1"/>
+              <li className="slider-img-2">
+                {/* <img src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512" alt="projeto1"/> */}
                 <div class="caption center-align">
-                  <h3>Left Aligned Caption</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                  <h3>Rieger Wallet</h3>
+                  <h5 class="light grey-text text-lighten-3">Carteira Virtual</h5>
                   <div className="slider-button-container">
                     <button className="button-slider">Preview</button>
                     <button className="button-slider">Repositório</button>
                   </div>
                 </div>
               </li>
-              <li>
-                <img src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512" alt="projeto1"/>
+              <li className="slider-img-3">
+                {/* <img src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512" alt="projeto1"/> */}
                 <div class="caption center-align">
-                  <h3>Right Aligned Caption</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                  <div className="slider-button-container">
-                    <button className="button-slider">Preview</button>
-                    <button className="button-slider">Repositório</button>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <img src="https://ca.slack-edge.com/TMDDFEPFU-U02FHMLRYN4-f4157b50ecae-512" alt="projeto1"/>
-                <div class="caption center-align">
-                  <h3>This is our big Tagline!</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                  <h3>RiegerFy</h3>
+                  <h5 class="light grey-text text-lighten-3">Um clone do Itunes</h5>
                   <div className="slider-button-container">
                     <button className="button-slider">Preview</button>
                     <button className="button-slider">Repositório</button>
