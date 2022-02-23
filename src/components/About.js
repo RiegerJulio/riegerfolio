@@ -18,7 +18,11 @@ export default class About extends Component {
               <a href="mailto:riegerproducoes@gmail.com"><FiMail /></a>
             </div>
           </div>
-        <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui do Lorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum[d] exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? [D]Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos </p>
+        <p>Meu nome é Rieger, tenho 28 anos e sou do Rio de Janeiro - RJ.
+Desde novo, tenho paixão pela área artistica e comecei a carreira de músico aos 12 anos. Durante a vida adulta, acabei me apaixonando por multimídia e formei em na área de produção musical. Além disso, fiz comédia Stand-up por quase 2 anos.
+Mas você pode estar se perguntando agora: O porque você decidiu ser desenvolvedor web?
+Durante uma conversa com um amigo sobre os rumos da minha vida, fui apresentado ao mundo do desenvolvimento. No inicio eu dizia "isso nao é pra mim, eu pertenço a arte" mas logo vi que não passava de medo de conquistar novos horizontes. Medo de sair da zona de conforto. Desde então, resolvi mergulhar fundo na área de desenvolvimento e comecei um curso de  Desenvolvimento Full Stack na Trybe. Minha vida mudou completamente, agora eu percebo que programação também é arte. É dar vida aos sonhos, desejos e vontades de outras pessoas, é me expressar e ser criativo através de linhas de código. Hoje posso dizer que é isso que eu quero pro resto da minha vida. Gerar impacto através dos meus códigos.
+</p>
         </div>
       </article>
     )

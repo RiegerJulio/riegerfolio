@@ -26,17 +26,18 @@ export default class Form extends Component {
         <div className="row">
           <div className="input-field col s12">
             <input id="first_name" type="text" className="validate" name="name"/>
-            <label for="first_name">Nome</label>
+            <label for="first_name"><span className="form-field">Nome</span></label>
           </div>
           <div className="input-field col s12">
             <input id="email" type="email" class="validate" name="email"/>
-            <label for="email">Email</label>
+            <label for="email"><span className="form-field">Email</span></label>
           </div>
           <div class="input-field col s12">
             <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
-            <label for="textarea1">Mensagem</label>
+            <label for="textarea1"><span className="form-field">Mensagem</span></label>
           </div>
-          <button class="btn waves-effect waves-light btn-submit indigo darken-4" type="submit" name="action">Enviar
+          <button class="btn-submit" type="submit" name="action">
+            <span>Enviar</span>
             <i class="material-icons right">send</i>
           </button>
         </div>
