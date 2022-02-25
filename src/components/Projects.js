@@ -16,6 +16,7 @@ export default class Projects extends Component {
           <div class="slider">
             <ul class="slides">
               <li className="slider-img-1">
+                <img src="" className="img-hidden" alt="img-hidden"/>
                 <div class="caption center-align">
                   <h3>Projeto Trivia</h3>
                   <h5 class="light grey-text text-lighten-3">Jogo de Perguntas e Respostas.</h5>
@@ -79,7 +80,7 @@ export default class Projects extends Component {
             <button className="button-git">Veja meu repositório Completo de Projetos</button>
           </a>
         </div>
-        <h1 id="portfolio">Kit de Habilidades</h1>
+        <h1 id="portfolio" className="portfolio-header">Kit de Habilidades</h1>
         <div className="skills-container">
           <div>
             <h2>Front-End</h2>
