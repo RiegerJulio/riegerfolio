@@ -216,6 +216,10 @@ article p {
   padding-top: 7vh;  
 }
 
+strong {
+  color: #1a237e;
+}
+
 form {
   padding-left: 3vw;
   padding-right: 3vw;
