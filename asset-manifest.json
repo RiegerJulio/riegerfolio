@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/riegerfolio/static/css/main.4a28240d.css",
+    "main.js": "/riegerfolio/static/js/main.664ed489.js",
+    "static/media/project-1-lg.png": "/riegerfolio/static/media/project-1-lg.ce1aa5b5831c5566310a.png",
+    "static/media/project-4-lg.png": "/riegerfolio/static/media/project-4-lg.2780c02bb5ed1ad38e3a.png",
+    "static/media/project-1-md.png": "/riegerfolio/static/media/project-1-md.e835d3b8de323fc4e6f5.png",
+    "static/media/Rieger_IMG.png": "/riegerfolio/static/media/Rieger_IMG.e11d5c92234b6bbef179.png",
+    "static/media/project-4-md.png": "/riegerfolio/static/media/project-4-md.3a3cd2ea2d025093233a.png",
+    "static/media/project-4-sm.png": "/riegerfolio/static/media/project-4-sm.6fbd81194a5b867cb306.png",
+    "static/media/project-2-lg.png": "/riegerfolio/static/media/project-2-lg.4e8e60c4403a8f3ffb88.png",
+    "static/media/project-3-lg.png": "/riegerfolio/static/media/project-3-lg.4d3347788f6a1d7b41bf.png",
+    "static/media/project-2-sm.png": "/riegerfolio/static/media/project-2-sm.494e0f96324ce0a158e2.png",
+    "static/media/project-1-sm.png": "/riegerfolio/static/media/project-1-sm.f9d024c4fbe5cb1bdeb2.png",
+    "static/media/project-2-md.png": "/riegerfolio/static/media/project-2-md.cc5ca765650ef926d602.png",
+    "static/media/project-3-md.png": "/riegerfolio/static/media/project-3-md.a81fc7bff51075b5b20e.png",
+    "static/media/project-3-sm.png": "/riegerfolio/static/media/project-3-sm.c5a0999c43a515ef5394.png",
+    "index.html": "/riegerfolio/index.html",
+    "main.4a28240d.css.map": "/riegerfolio/static/css/main.4a28240d.css.map",
+    "main.664ed489.js.map": "/riegerfolio/static/js/main.664ed489.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a28240d.css",
+    "static/js/main.664ed489.js"
+  ]
+}
