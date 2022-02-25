@@ -49,8 +49,8 @@ nav {
   z-index: 5;
 }
 
-main {
-  margin-top: 10vh;
+.intro-message {
+  padding-top: 10vh;
 }
 
 .sidenav {
@@ -139,6 +139,10 @@ main {
 .slider-img-4 {
   background-position: center;
   background-image: url('./images/project-4-sm.png');
+}
+
+#portfolio {
+  padding-top: 10vh;
 }
 
 li h3 {
@@ -285,7 +289,6 @@ footer p {
   }
 
   .sidenav-trigger {
-    position: absolute;
     left: 90vw;
     top: 1vh;
   }
